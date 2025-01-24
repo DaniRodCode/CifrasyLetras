@@ -1,0 +1,257 @@
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+
+.boton {
+	height: 50px;
+	background: lightgray;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #343434;
+    font-size: 25px;
+	line-height: 50px;
+	width:100%;
+	float:left;
+}
+
+.boton:hover {
+	background: white;
+}
+
+.botonGrande {
+	width: 40%;
+	height: 200px;
+	top: 23%;
+	position: relative;
+	margin: 0px 5% 0 5%;
+	background: lightgray;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #343434;
+    font-size: 50px;
+	line-height: 200px;
+	float: left;
+}
+
+.botonGrande:hover {
+	background: white;
+}
+
+.oculto {
+	display: none;
+}
+
+
+.pantalla {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+#contenedor {
+	text-align: center;
+	background: orange;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	min-width: 450px;
+	position: relative;
+	float:left;
+}
+
+
+
+#botonTitulo{
+	position: absolute;
+	height: 100px;
+	top: 38%;
+    font-size: 50px;
+	line-height: 100px;
+}
+
+
+#botonTitulo:hover {
+    background-color: #fff;
+
+}
+
+
+#logo1mas1 {
+	background-image: url('images/1mas1Logo.gif');
+	width:200px;
+	height: 167px;
+	position: absolute;
+	right:0px;
+	bottom: 0px;
+	opacity: .3;
+}
+
+
+#cabecera {
+	position: relative;
+	height: 50px;
+	top: 0;
+    font-size: 50px;
+	line-height: 100px;
+}
+
+
+#pantallaCifras {
+}
+
+#cifras {
+	width: 100%;
+	float: left;
+	text-align: center;
+	height: 55px;
+}
+
+#cifra {
+	background: white;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #343434;
+    font-size: 50px;
+	line-height: 50px;
+	margin: 10px;
+	padding: 10px;
+	position:relative;
+	display: inline;
+}
+
+#cifraObjetivo {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    font-size: 100px;
+	line-height: 100px;
+	padding: 10px 0 10px 0;
+	width:100%;
+	float:left;
+}
+
+#solucion {
+	width: 100%;
+	float: left;
+	text-align: center;
+	background:red;
+}
+
+#operacion {
+	background: white;
+	width: 100%;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #343434;
+    font-size: 24px;
+	line-height: 24px;
+	position:relative;
+}
+
+
+#menuVocalConsonante {
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+
+
+#letras {
+	width: 100%;
+	height: 90px;
+	position:relative;
+}
+
+#letra {
+	background: white;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #343434;
+    font-size: 30px;
+	line-height: 50px;
+	margin: 10px;
+	padding: 10px;
+	display: inline;
+}
+
+
+#palabras {
+	width: 100%;
+	float: left;
+	text-align: center;
+	background:red;
+}
+
+#palabra {
+	background: white;
+	width: 100%;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #343434;
+    font-size: 24px;
+	line-height: 24px;
+	position:relative;
+}
+
+
+
+#tiempo {
+	background: pink;
+	width: 100%;
+	float: left;
+	height:50px;
+}
+
+
+#botonTiempo {
+	position:relative;
+	top:0px;
+	z-index: 10;
+}
+
+#botonTiempo:hover {
+	background: white;
+}
+
+#barraProgreso {
+	height: 50px;
+	background: black;
+	width:100%;
+	top:0px;
+	position: relative;
+	z-index: 0;
+}
+
+
+#tiempoActual {
+	height: 50px;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #343434;
+    font-size: 25px;
+	line-height: 50px;
+	width:100%;
+	position: absolute;
+	top:0px;
+	z-index: 10;
+}
+
+#barra {
+	height: 50px;
+	background: darkgray;
+	width:0%;
+	position: absolute;
+	top:0px;
+	z-index: 0;
+}
+
+
